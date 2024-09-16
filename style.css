@@ -1,0 +1,64 @@
+* {
+    margin: 3;
+}
+
+body {background-color: beige;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;} 
+
+
+#myphoto { 
+    width: 200px;
+border: 5px solid darkslategray;
+border-radius: 20px;
+padding: 10px;
+margin: 20px;}
+.FIO {
+    color: darkslategrey;
+}
+
+label, input{
+    display: block;
+}
+
+input[type= "checkbox"],input[type="radio"]{
+    display: inline;
+}
+
+
+.skills li{
+    color:darkslategray;
+    
+    transition: 200ms;
+}
+
+.skills li:hover{
+    font-size: 20px;
+    font-weight: bold;
+    color:black
+}
+
+@media (((min-width:320px) and (max-width: 600px))) {
+    body {background-color: rgb(193, 211, 244);}
+        .skills li:hover{
+            font-size: 30px;
+            font-weight: bold;
+            color:rgb(24, 19, 40)
+        }
+        .FIO {
+            color: rgb(23, 23, 39);
+            text-align: center;
+        }
+        #myphoto { 
+            width: 200px;
+        border: 5px solid:rgb(23, 23, 39);
+        
+        padding: 10px;
+        margin: center }
+
+        .skills li{
+            color:rgb(23, 23, 39);
+            
+            transition: 200ms;
+        }
+
+}
